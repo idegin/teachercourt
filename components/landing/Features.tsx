@@ -43,7 +43,7 @@ const features = [
             "Interactive quizzes and polls",
             "Progress tracking for motivation"
         ],
-        image: "https://images.unsplash.com/photo-1544985223-a1789c675319?q=80&w=1000&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1000&auto=format&fit=crop",
         imageAlt: "Excited student learning",
     },
     {

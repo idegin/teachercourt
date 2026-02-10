@@ -4,6 +4,7 @@ import { Features } from "@/components/landing/Features";
 import { WhyBuilding } from "@/components/landing/WhyBuilding";
 import { WhoThisIsFor } from "@/components/landing/WhoThisIsFor";
 import { WhatHappensNext } from "@/components/landing/WhatHappensNext";
+import { CallToAction } from "@/components/landing/CallToAction";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <WhyBuilding />
       <WhoThisIsFor />
       <WhatHappensNext />
+      <CallToAction />
     </div>
   );
 }
