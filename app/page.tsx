@@ -2,6 +2,8 @@ import { Hero } from "@/components/landing/Hero";
 import { Problem } from "@/components/landing/Problem";
 import { Features } from "@/components/landing/Features";
 import { WhyBuilding } from "@/components/landing/WhyBuilding";
+import { WhoThisIsFor } from "@/components/landing/WhoThisIsFor";
+import { WhatHappensNext } from "@/components/landing/WhatHappensNext";
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       <Problem />
       <Features />
       <WhyBuilding />
+      <WhoThisIsFor />
+      <WhatHappensNext />
     </div>
   );
 }

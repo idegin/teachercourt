@@ -22,8 +22,8 @@ export function Hero() {
                 </div>
             </div>
 
-            {/* Background decoration (optional but adds "premium" feel) */}
-            <div className="absolute inset-0 -z-10 h-full w-full bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)] opacity-20 dark:bg-black dark:[background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
+            {/* Background decoration */}
+            <div className="absolute inset-0 -z-10 h-full w-full bg-background bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/20 via-background to-background"></div>
         </section>
     );
 }
