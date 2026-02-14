@@ -1,10 +1,21 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import {
+    Sheet,
+    SheetContent,
+    SheetTrigger,
+    SheetHeader,
+    SheetTitle,
+} from "@/components/ui/sheet";
 
 export function Header() {
+    const [open, setOpen] = useState(false);
+
     const routes = [
         { href: "/", label: "Home" },
         { href: "#offerings", label: "Offerings" },
@@ -41,27 +52,48 @@ export function Header() {
                             <Link href="#waitlist">Join Waitlist</Link>
                         </Button>
                     </div>
-                    <Sheet>
+                    <Sheet open={open} onOpenChange={setOpen}>
                         <SheetTrigger asChild>
                             <Button variant="ghost" size="icon" className="md:hidden">
                                 <Menu className="h-5 w-5" />
                                 <span className="sr-only">Toggle menu</span>
                             </Button>
                         </SheetTrigger>
-                        <SheetContent side="right">
-                            <nav className="flex flex-col gap-4 mt-8">
+                        <SheetContent side="right" className="w-[300px] sm:w-[400px] pr-0">
+                            <SheetHeader className="px-6 text-left">
+                                <SheetTitle>
+                                    <Image
+                                        src="/logo-light.png"
+                                        alt="TutorCourt Logo"
+                                        width={120}
+                                        height={32}
+                                        className="h-8 w-auto object-contain"
+                                    />
+                                    <span className="sr-only">TutorCourt Menu</span>
+                                </SheetTitle>
+                            </SheetHeader>
+                            <nav className="flex flex-col gap-6 mt-8 px-6">
                                 {routes.map((route) => (
                                     <Link
                                         key={route.href}
                                         href={route.href}
-                                        className="text-sm font-medium transition-colors hover:text-primary"
+                                        onClick={() => setOpen(false)}
+                                        className="text-lg font-medium transition-colors hover:text-primary py-2 border-b border-border/50 last:border-0"
                                     >
                                         {route.label}
                                     </Link>
                                 ))}
-                                <Button variant="default" size="sm" asChild className="w-full mt-4">
-                                    <Link href="#waitlist">Join Waitlist</Link>
-                                </Button>
+                                <div className="mt-4">
+                                    <Button
+                                        variant="default"
+                                        size="lg"
+                                        asChild
+                                        className="w-full text-base font-semibold shadow-md"
+                                        onClick={() => setOpen(false)}
+                                    >
+                                        <Link href="#waitlist">Join Waitlist</Link>
+                                    </Button>
+                                </div>
                             </nav>
                         </SheetContent>
                     </Sheet>
