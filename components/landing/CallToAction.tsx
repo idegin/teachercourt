@@ -58,10 +58,10 @@ export function CallToAction() {
                         <div className="flex items-center gap-4">
                             <div className="flex -space-x-4">
                                 {[
-                                    "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=64&h=64",
-                                    "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=64&h=64",
-                                    "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=64&h=64",
-                                    "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=64&h=64"
+                                    "https://cdn.pixabay.com/photo/2022/08/20/11/59/african-man-7398921_1280.jpg",
+                                    "https://img.freepik.com/free-photo/close-up-beautiful-african-woman-portrait_23-2148960573.jpg",
+                                    "https://images.pexels.com/photos/20000981/pexels-photo-20000981/free-photo-of-portrait-of-an-african-man.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                                    "https://img.freepik.com/free-photo/beautiful-african-woman-face-portrait-close-up_53876-148041.jpg?semt=ais_user_personalization&w=740&q=80"
                                 ].map((src, i) => (
                                     <img
                                         key={i}

@@ -37,7 +37,7 @@ export function Problem() {
     ];
 
     return (
-        <section className="py-24 bg-accent/60">
+        <section className="py-24 bg-accent/60" id='the-problem'>
             <div className="container px-4 md:px-6 mx-auto">
                 <div className="flex flex-col items-center justify-center text-center space-y-6 mb-16 max-w-3xl mx-auto">
                     <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-5xl text-accent-foreground">

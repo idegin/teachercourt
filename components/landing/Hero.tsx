@@ -14,7 +14,7 @@ export function Hero() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 w-full justify-center">
                     <Button size="lg" className="group text-lg px-8 h-14" asChild>
-                        <Link href="https://tutorcourt.com/survey" target="_blank">
+                        <Link href="https://forms.gle/ugh3LuxjyGVgg4L97" target="_blank">
                             Take the Survey (5–8 minutes)
                             <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                         </Link>

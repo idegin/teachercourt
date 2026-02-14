@@ -7,9 +7,8 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 export function Header() {
     const routes = [
         { href: "/", label: "Home" },
-        { href: "#how-it-works", label: "How it works" },
         { href: "#offerings", label: "Offerings" },
-        { href: "#waitlist", label: "Waitlist" },
+        { href: "#the-problem", label: "The Problem" },
     ];
 
     return (
