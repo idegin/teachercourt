@@ -20,8 +20,8 @@ export function CallToAction() {
                         className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 h-14 px-8 text-lg font-semibold group w-full sm:w-auto"
                         asChild
                     >
-                        <Link href="https://tutorcourt.com/survey" target="_blank">
-                            Take the TutorCourt Tutor Survey
+                        <Link href="https://forms.gle/ugh3LuxjyGVgg4L97" target="_blank">
+                            Take the Survey
                             <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                         </Link>
                     </Button>
@@ -49,7 +49,7 @@ export function CallToAction() {
                             className="bg-secondary-foreground text-secondary hover:bg-secondary-foreground/90 h-14 px-8 text-lg font-semibold group w-full sm:w-auto border border-secondary"
                             asChild
                         >
-                            <Link href="https://tutorcourt.com/waitlist" target="_blank">
+                            <Link href="https://forms.gle/cmfXqDPh3aLp3LFd9" target="_blank">
                                 Join The Waitlist
                                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                             </Link>

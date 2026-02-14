@@ -10,7 +10,7 @@ const features = [
             "Session recording for revision",
             "One-click join for students"
         ],
-        image: "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?q=80&w=1000&auto=format&fit=crop",
+        image: "/img/video.png",
         imageAlt: "Tutor teaching student online",
     },
     {
@@ -21,7 +21,7 @@ const features = [
             "Automated deadlines and reminders",
             "Rich-text feedback and file annotation"
         ],
-        image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1000&auto=format&fit=crop",
+        image: "/img/homework.png",
         imageAlt: "Student working on homework",
     },
     {
@@ -32,7 +32,7 @@ const features = [
             "Equation editor and shape tools",
             "Save boards as PDF notes"
         ],
-        image: "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?q=80&w=1000&auto=format&fit=crop",
+        image: "/img/whiteboard.png",
         imageAlt: "Digital whiteboard graphics",
     },
     {
@@ -43,7 +43,7 @@ const features = [
             "Interactive quizzes and polls",
             "Progress tracking for motivation"
         ],
-        image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1000&auto=format&fit=crop",
+        image: "/img/game.png",
         imageAlt: "Excited student learning",
     },
     {
@@ -54,7 +54,7 @@ const features = [
             "Review and rating system",
             "Introductory video hosting"
         ],
-        image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000&auto=format&fit=crop",
+        image: "/img/profile.png",
         imageAlt: "Professional tutor profile",
     },
     {
@@ -65,7 +65,7 @@ const features = [
             "Attendance and hour tracking",
             "Monthly progress reports"
         ],
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
+        image: "/img/dashboard.png",
         imageAlt: "Analytics dashboard",
     },
 ];
