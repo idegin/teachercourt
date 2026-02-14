@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export function CallToAction() {
     return (
-        <section className="w-full flex flex-col md:flex-row">
+        <section className="w-full flex flex-col md:flex-row" id="waitlist">
             {/* Column 1 (Primary - Left) */}
             <div className="w-full md:w-1/2 bg-primary text-primary-foreground p-[60px] flex flex-col justify-center">
                 <div className="max-w-xl mx-auto md:mx-0 w-full">
