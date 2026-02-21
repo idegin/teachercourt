@@ -50,7 +50,7 @@ const features = [
         title: "Tutor profiles for discoverability",
         description: "Stop relying on word-of-mouth alone. Create a professional profile that showcases your expertise to thousands of parents.",
         details: [
-            "Verified credentials badges",
+            "Verified credential badges",
             "Review and rating system",
             "Introductory video hosting"
         ],
